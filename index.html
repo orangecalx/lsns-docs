@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="bom/" class="nav-link">Bom</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="bom/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#summary" class="nav-link">SUMMARY</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#specifications" class="nav-link">SPECIFICATIONS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#controls" class="nav-link">CONTROLS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#tips-tricks" class="nav-link">TIPS / TRICKS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#contact-support" class="nav-link">CONTACT + SUPPORT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#warranty-info" class="nav-link">WARRANTY INFO</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><font size="7" face="Courier Prime"><i>WL-283 - "LSN-STEREO"</i></font><br>
+<font size="5">REFERENCE DOCUMENTATION</font>
+<br><br></p>
+<p><img src="lsn-mkdocs.png" width="80%" height="80%">
+<br><br><br></p>
+<h1 id="summary"><em>SUMMARY</em></h1>
+<p><br></p>
+<p>LSN-Stereo is a stereo / dual mono version of our <a href="https://wildfirelaboratories.com/lsn.html">"LUCY SAYS NO"</a> vactrol controlled feedback loop. LSN-S's functionality is identical to the original LSN, but adds a LINK / SOLO switch that allows you to control both channels controllable via one set of controls and CV inputs. </p>
+<p>Functioning similarly to feedback loop devices found in the effects pedal world, LSN-S differentiates itself by being voltage-controlled. CV given to LSN-S controls a vactrol placed in the middle of the feedback loop, letting more or less signal through. LSN works best with delays, filters, and other modules that process and incoming signal, but as always experimentation is encouraged.</p>
+<p><br><br><br></p>
+<h1 id="specifications"><em>SPECIFICATIONS</em></h1>
+<p><br></p>
+<ul>
+<li><strong>10HP wide</strong></li>
+<li>Skiff-friendly</li>
+<li>40ma~ at +12v, 40ma~ at -12</li>
+<li>1kOhm input / 100kOhm output impedence</li>
+<li>Vactrol control with CV in</li>
+</ul>
+<p><br><br></p>
+<h1 id="controls"><em>CONTROLS</em></h1>
+<p><br></p>
+<p><img src="lsns-mkdocs2.png">
+<i>LSN-S's two channels are identical - control descriptions apply to both channels</i></p>
+<p><br></p>
+<ul>
+<li>
+<p><font size="5"><strong><em>LEVEL</em></strong></font></p>
+<p>Vactrol control of feedback AMOUNT.</p>
+</li>
+</ul>
+<p><br>        </p>
+<ul>
+<li>
+<p><font size="5"><strong><em>GAIN</em></strong></font> </p>
+<p>Gain control for the feedback loop preamp - different modules oscillate / freak out at different levels, this control will allow you to account for your module's specific needs. 1x - 51x op-amp amplification, with distortion at the higher levels. </p>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<p><font size="5"><strong><em>LINK / SOLO</em></strong></font></p>
+<p>When the module is in LINK mode, the LEFT HAND SIDE knobs and CV input control BOTH channels - this allows for identical gain between the two channels when using stereo modules. In SOLO mode, each channel operates independantly - LEFT side knobs and CV input controls the LEFT channel, RIGHT side knobs and CV input controls the RIGHT channel.</p>
+</li>
+</ul>
+<p><br>    </p>
+<ul>
+<li>
+<p><font size="5"><strong><em>SEND"</em></strong></font></p>
+<p>Connect the INPUT of your donor module (the one you want to have feed back) to this jack, labelled SEND.
+<br>  <br />
+- <font size="5"><strong><em>RETURN</em></strong></font></p>
+<p>Connect the OUTPUT of your donor module to this jack, labelled RTRN.</p>
+</li>
+<li>
+<p><font size="5"><strong><em>CV</em></strong></font></p>
+<p>CV input to control LEVEL of either / both channels (see LINK/SOLO description above). The LEVEL knob acts as an offset when CV is being input. </p>
+</li>
+</ul>
+<p><br><br><br>    </p>
+<h1 id="tips-tricks">TIPS / TRICKS</h1>
+<p><br></p>
+<ul>
+<li>
+<p>types of modules that work best with LSN: filters,
+distortions, reverbs and delays especially! all modules
+will have different input impedences and circuit designs.
+experiment! we keep telling you to experiment please god</p>
+</li>
+<li>
+<p>a secret: LSN's feedback loop is basically an LPG sans
+the "L". by patching a sound source into "RETURN",
+listening to the output on "SEND", and using the CV
+input, you can use it as a very dirty vactrol. note that
+due to the boost circuit the signal will always be at
+least slightly distorted, but this is good</p>
+</li>
+<li>
+<p>if you're having trouble containing your donor module's
+feedback (it's only very quiet or VERY LOUD), use your
+donor module's feedback, input gain, or similar controls
+to set the "initial" feedback amount.</p>
+</li>
+</ul>
+<p><br><br><br>        </p>
+<h1 id="contact-support">CONTACT + SUPPORT</h1>
+<p><br></p>
+<p>Please do not hesitate to reach out to us with questions, comments, repair
+requests, returns, parables, assembly opcodes, and general support. You can
+reach us via:</p>
+<p>EMAIL – <a href="wildfirelaboratories@gmail.com">wildfirelaboratories@gmail.com</a></p>
+<p>INSTAGRAM – <a href="instagram.com/wildfire_laboratories">instagram.com/wildfire_laboratories</a></p>
+<p>WEBSITE – <a href="https://wildfirelaboratories.com">wildfirelaboratories.com</a>
+d</p>
+<p><br><br><br>        </p>
+<h1 id="warranty-info">WARRANTY INFO</h1>
+<p><br>
+All Wildfire Laboratories devices have a 5-month warranty from time of
+purchase. This covers manufacturing + assembly issues. Incorrect power
+connections (power supplies with wrong polarity, too much power, etc), wear
+and tear from normal use, and issues due to modifications are not covered by
+said Warranty (although you should absolutely email us with any mods you
+do).</p>
+<p>We will repair, replace, or refund depending on the circumstances. Shipping
+will be paid by the buyer.
+Thank you very much for your support, and as always, Wildfire wishes you an
+easy listening.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.3.0
+Build Date UTC : 2022-07-06 18:01:24.465857+00:00
+-->
